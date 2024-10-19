@@ -35,15 +35,6 @@ Evaluate the model:
 
 python evaluation.py
 
-Example Output
-              precision    recall  f1-score   support
-      Short       0.87      0.85      0.86       100
-     Medium       0.78      0.80      0.79       150
-       Long       0.90      0.92      0.91       200
-   accuracy                           0.87       450
-  macro avg       0.85      0.86      0.85       450
-weighted avg       0.87      0.87      0.87       450
-
 Contributors
 Haekal Setiawan (@haekalsetiawan)
 
