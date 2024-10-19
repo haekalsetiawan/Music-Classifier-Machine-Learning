@@ -1,0 +1,19 @@
+import pandas as pd
+
+# Baca dataset
+df = pd.read_csv('songs_normalize.csv')
+
+# Fungsi untuk memberi label berdasarkan durasi
+def label_duration(row):
+    if row['duration_ms'] < 180000:
+        return 'Short'
+    elif row['duration_ms'] < 240000:
+        return 'Medium'
+    else:
+        return 'Long'
+
+# Terapkan fungsi untuk setiap baris di dataset
+df['duration_label'] = df.apply(label_duration, axis=1)
+
+# Tampilkan beberapa baris pertama
+print(df.head())
