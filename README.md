@@ -18,7 +18,7 @@ cd Music_Classifier_Machine_Learning
 
 pip install -r requirements.txt
 
-Usage
+## Usage
 Preprocess the data:
 
 python preprocessing.py
@@ -35,8 +35,8 @@ Evaluate the model:
 
 python evaluation.py
 
-Contributors
+## Contributors
 Haekal Setiawan (@haekalsetiawan)
 
-License
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
