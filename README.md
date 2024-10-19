@@ -1,13 +1,9 @@
-# Machine Learning Project
+# Music Classification ML
 
-This project uses a dataset (`songs_normalize.csv`) to train a machine learning model using the Random Forest algorithm.
+## Deskripsi
+Proyek machine learning untuk mengklasifikasikan genre musik berdasarkan berbagai fitur. Menggunakan dataset lagu yang sudah dinormalisasi untuk memprediksi kategori musik.
 
-## Requirements
-
-- pandas
-- scikit-learn
-
-## Usage
-
-```bash
-python machine_learning.py
+## Instalasi
+1. Clone repositori:
+   ```sh
+   git clone https://github.com/haekalsetiawan/Music_Classification_ML.git
