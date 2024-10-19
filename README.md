@@ -6,4 +6,4 @@ Proyek machine learning untuk mengklasifikasikan genre musik berdasarkan berbaga
 ## Instalasi
 1. Clone repositori:
    ```sh
-   git clone https://github.com/haekalsetiawan/Music_Classification_ML.git
+   git clone https://github.com/haekalsetiawan/Music_Classifier_Machine_Learning.git
