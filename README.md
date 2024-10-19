@@ -9,31 +9,33 @@ This repository contains a comprehensive project focused on music classification
 - **Model Training**: Implements a machine learning pipeline to train models on the dataset.
 - **Evaluation**: Scripts to evaluate the performance of trained models and generate reports.
 
-## Repository Structure
-Music_Classifier_Machine_Learning/ ├── songs_normalize.csv # Dataset file ├── create_labels.py # Script for creating labels ├── preprocessing.py # Data preprocessing script ├── training.py # Model training script ├── evaluation.py # Model evaluation script ├── main.py # Main script to run the entire pipeline ├── trained_model.pkl # Trained machine learning model ├── README.md # Project documentation ├── requirements.txt # Dependencies ├── .gitignore # Git ignore file └── LICENSE # License file
-
 ## Installation
 Clone the repository and install the required dependencies:
 
 git clone https://github.com/haekalsetiawan/Music-Classifier-Machine-Learning.git
+
 cd Music_Classifier_Machine_Learning
+
 pip install -r requirements.txt
 
 Usage
 Preprocess the data:
+
 python preprocessing.py
 
 Create labels:
+
 python create_labels.py
 
 Train the model:
+
 python training.py
 
 Evaluate the model:
+
 python evaluation.py
 
 Example Output
-Here is an example output after running the evaluation script:
               precision    recall  f1-score   support
       Short       0.87      0.85      0.86       100
      Medium       0.78      0.80      0.79       150
